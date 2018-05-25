@@ -1,0 +1,20 @@
+h1 {
+    float: left;
+}
+
+/* menu {
+    float: right;
+} */
+
+menu {
+    float: right;
+}
+
+h2 {
+    clear: both;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+}
