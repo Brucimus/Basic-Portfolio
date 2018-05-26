@@ -1,13 +1,33 @@
-h1 {
-    float: left;
+header {
+    background-color: white;
+    height: 40px;
 }
 
-/* menu {
-    float: right;
-} */
+.headerMenu {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: purple;
+}
+
+/* 
+    Example
+*/
 
 menu {
     float: right;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 
 h2 {
@@ -20,6 +40,22 @@ h2 {
 }
 body {
     clear: both;
+    background-color: cornflowerblue;
+}
+
+.container {
     width: 960px;
     margin: auto;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+    border-top: solid green;
+    border-top-width: 10px;
+    text-align: center;
 }
