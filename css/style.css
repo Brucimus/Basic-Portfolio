@@ -107,3 +107,29 @@ table {
 td {
     padding: 10px;
 }
+
+/* Contact Form */
+.contactForm {
+    padding: 20px;
+}
+
+.formTextInput {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.contactTitle{
+    margin-left: 10px;
+}
+/* Contact Text Area */
+#contactText {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.formButtonInput {
+    margin-left: 10px;
+}
