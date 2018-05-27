@@ -1,8 +1,8 @@
 /*White Bar at Top*/
 header {
-    background-color: white;
+    background-color: #ffffff;
     height: 40px;
-    border-bottom: solid gray 2px;
+    border-bottom: solid #cccccc 2px;
     margin-bottom: 30px;
 }
 
@@ -15,13 +15,15 @@ header {
 h1 {
     float: left;
     height: 20px;
-    width: 100px;
+    width: 150px;
+    font-size: 20px;
     text-align: center;
     margin: auto;
     padding: 10px;
-    background-color: turquoise;
-    color: white;
+    background-color: #4aaaa5;
+    color: #ffffff;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 menu {
@@ -33,7 +35,7 @@ menu {
 }
 
 #About, #Portfolio {
-    border-right: solid 2px gray;
+    border-right: solid 2px #cccccc;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -46,12 +48,13 @@ menu {
 /* About Me Header */
 h2 {
     clear: both;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-bottom: 10px;
     border-bottom: solid 2px gray;
-    color: turquoise;
+    color: #4aaaa5;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Awesome Picture */
@@ -65,8 +68,10 @@ h2 {
 /* Body Background and Clear Floats */
 body {
     clear: both;
-    background-color: cornflowerblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/footer_lodyas.png");
+    background-repeat: repeat;
+    /* background-color: rgb(11, 44, 105); */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* Main Part of Page */
@@ -75,8 +80,12 @@ body {
     margin: auto;
     padding: 5px 20px 20px 20px;
     min-height: 300px;
-    background-color: white;
-    border: solid gray 2px;
+    background-color: #ffffff;
+    border: solid dddddd 2px;
+}
+
+p {
+    color: #777777;
 }
 
 .body {
@@ -90,10 +99,10 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: gray;
+    background-color: #666666;
     height: 40px;
     width: 100%;
-    border-top: solid turquoise 5px;
+    border-top: solid #4aaaa5 5px;
 }
 
 #Copyright {
@@ -115,7 +124,7 @@ td {
 
 /* Titles for Images in Grid */
 .picBanner {
-    background-color: turquoise;
+    background-color: #4aaaa5;
     color: white;
     position: absolute;
     bottom:20px;
@@ -123,6 +132,7 @@ td {
     height: 15px;
     text-align: center;
     padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Contact Form */
