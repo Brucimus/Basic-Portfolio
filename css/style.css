@@ -45,6 +45,10 @@ menu {
     padding-right: 10px;
 }
 
+#About:visited, #Portfolio:visited, #Contact:visited {
+    color: #777777;
+}
+
 #About:hover, #Portfolio:hover, #Contact:hover {
     color: yellow;
 }
